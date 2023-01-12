@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>advDesign2</title>
+    <link rel="stylesheet" href="advDesign2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(function() {
+        $('a[href*=\\#]').on('click', function() {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        });
+    });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="shadow">
+            <div class="img1">
+                <div class="nav1">
+                    <nav>
+                        <div>
+                            <img src="images/head_logo.jpg" alt="corey_logo" width="160" height="55">
+                        </div>
+                        <div>
+                            <ul>
+                                <li><a href="advDesign2.htm">HOME</a></li>
+                                <li><a href="advDesign2.htm">ABOUT</a></li>
+                                <li><a href="advDesign2.htm">SERVICES</a></li>
+                                <li><a href="advDesign2.htm">PORTFOLIO</a></li>
+                                <li><a href="advDesign2.htm">PRICE</a></li>
+                                <li><a href="advDesign2.htm">BLOG <select name="blog" id="" style="border: none; font-weight: bold;"></select></a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img src="images/mail.jpg" alt="" height="53" width="53">
+                        </div>
+                    </nav>
+                </div>
+                <div class="content1">
+                    <div style="width: 700px; text-align: center;">
+                        <p style="font-size: 50px;">We Will <span>Make </span>Your <span>Bussiness </span>Great Again</p>
+                        <div style="display: flex; justify-content: center;">
+                            <p style="width:300px; margin: 15px 0px;">Qunsectetur adipisicing elit. Impedit repudiandae nisi maiores dolore dolor</p>
+                        </div>
+                        <div class="imgbtn">
+                            <button>CONTACT US</button>
+                            <button>DISCOVER NOW</button>
+                        </div>
+                    </div>
+                    <div style="text-align: center; position: absolute; bottom: 0px;">
+                        <a href="#hellos">
+                            <img src="images/icons/darrow.png" alt="down" width="35" height="20">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="formargin">
+            <div class="hello" id="hellos">
+                <div class="hello1">
+                    <div class="hw">
+                        <h1 style="font-size: 50px; font-weight: lighter;">Hello <span style="color: rgb(74, 74, 126); font-weight: bold;">World</span></h1>
+                        <p class="tp" style="margin: 30px 50px 30px 0px; font-size: 15px; text-align: justify;"> Qnsectetur adipisicing elit Impedit repudiandae nisi maiores dolore dolor qnsectetur adipisicing elit maiores dolore dolor qnsectetur adipisicing elit impedit repudiandae nisi maiores dolore dolor qnsectetur adipisicing elit.</p>
+                        <div>
+                            <div class="ip">
+                                <img src="images/icons/i-diamond_b.svg" alt="" width="35" height="35">
+                                <p>Exploring your area of activity</p>
+                            </div>
+                            <div class="ip">
+                                <img src="images/icons/i-wallet_b.svg" alt="" width="35" height="35">
+                                <p>Compatative analsis</p>
+                            </div>
+                            <div class="ip">
+                                <img src="images/icons/i-trophy_b.svg" alt="" width="35" height="35">
+                                <p>Do the work in time</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img3">
+                        <img src="images/img-3.jpg" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="img2">
+            <div class="shadow">
+                <div class="some">
+                    <div class="some1" id="somes">
+                        <div style="text-align:center;">
+                            <div style="display: flex; justify-content: center;">
+                                <p style="text-align: center; font-size: 36px; width: 450px;">Some of our <span style="font-weight: bold; color: white;">best service </span>to solve your problems</p>
+                            </div>
+                            <div class="ip2">
+                                <div>
+                                    <div class="ip21">
+                                        <div class="ip211">
+                                            <img src="images/icons/i-message_w.svg" alt="" width="45" height="45">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h2 style="margin: 10px 0px;">Digital Marketing</h2>
+                                        <p>Qnsectetur adipisicing elit Impedit repudiandae nisi maiores dolore dolor qnsectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="ip21">
+                                        <div class="ip211">
+                                            <img src="images/icons/i-feature_w.svg" alt="" width="45" height="45">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h2 style="margin: 10px 0px;">Web Development</h2>
+                                        <p>Qnsectetur adipisicing elit Impedit repudiandae nisi maiores dolore dolor qnsectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="ip21">
+                                        <div class="ip211">
+                                            <img src="images/icons/i-sketch_w.svg" alt="" width="45" height="45">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h2 style="margin: 10px 0px;">UI/UX Design</h2>
+                                        <p>Qnsectetur adipisicing elit Impedit repudiandae nisi maiores dolore dolor qnsectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imgbtn">
+                                <button>ORDER A SERVICE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="formargin">
+            <div class="good">
+                <div>
+                    <p style="font-size: 45px;"><span>Good design</span> is obvious Great design is transparent</p>
+                    <p><span>About Joe &copy;</span> graphic designer, digital literacy teacher</p>
+                </div>
+                <div>
+                    <div style="width: 500px;">
+                        <ul>
+                            <li><a href="advDesign2.html">SHOW ALL</a></li>
+                            <li><a href="advDesign2.html">DESIGN</a></li>
+                            <li><a href="advDesign2.html">CODE</a></li>
+                            <li><a href="advDesign2.html">ART</a></li>
+                        </ul>
+                    </div>
+                    <div class="min">
+                        <div class="l1">
+                            <div class="imgb">
+                                <img src="images/12-min.jpg" alt="">
+                            </div>
+                            <div class="imgs">
+                                <img src="images/2-min.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="l2">
+                            <div class="imgh">
+                                <div class="imgh1">
+                                    <div>
+                                        <button class="plus">+</button>
+                                        <h2>Project Title</h2>
+                                        <span>Code</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imgs">
+                                <img src="images/2-min.jpg" alt="">
+                            </div>
+                            <div class="imgs">
+                                <img src="images/2-min.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="l3">
+                            <div class="imgs">
+                                <img src="images/2-min.jpg" alt="">
+                            </div>
+                            <div class="imgb">
+                                <img src="images/12-min.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="img4">
+            <div class="shadow">
+                <div class="records">
+                    <div class="records1">
+                        <div class="num">
+                            <div>
+                                <div class="imgbr">
+                                    <img src="images/icons/i-team.svg" alt="" width="60" height="60">
+                                </div>
+                            </div>
+                            <h3>Unique customers :</h3>
+                            <p>3519+</p>
+                        </div>
+                        <div class="num">
+                            <div>
+                                <div class="imgbr">
+                                    <img src="images/icons/i-shield.svg" alt="" width="60" height="60">
+                                </div>
+                            </div>
+                            <h3>Completed projects :</h3>
+                            <p>3519+</p>
+                        </div>
+                        <div class="num">
+                            <div>
+                                <div class="imgbr">
+                                    <img src="images/icons/i-diamond.svg" alt="" width="60" height="60">
+                                </div>
+                            </div>
+                            <h3>Happy users :</h3>
+                            <p>3519+</p>
+                        </div>
+                        <div class="num">
+                            <div>
+                                <div class="imgbr">
+                                    <img src="images/icons/i-trophy.svg" alt="" width="70" height="70">
+                                </div>
+                            </div>
+                            <h3>Honors and awards :</h3>
+                            <p>3519+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="formargin">
+            <div class="flexible">
+                <div class="top">
+                    <h1>Flexible <span style="color: rgb(61, 61, 61); font-weight: bold;">Pricing</span> Plans</h1>
+                    <p>Dolor sit Mollitia harum ea ut eaque velit.</p>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <h2>Trial version</h2>
+                        <p class="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        <h2>free</h2>
+                        <p class="para1">500gb drive space</p>
+                        <p class="para1">Ulimited messages</p>
+                        <p class="para2">Free Email address</p>
+                        <p class="para2">Friendly support</p>
+                        <div class="cardbtn">
+                            <button>DOWNLOAD</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h2>Regular</h2>
+                        <p class="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        <h2><span>$</span>19<span>/Month</span></h2>
+                        <p class="para1">500gb drive space</p>
+                        <p class="para1">Ulimited messages</p>
+                        <p class="para1">Free Email address</p>
+                        <p class="para2">Friendly support</p>
+                        <div class="cardbtn">
+                            <button>PURCHASE</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h2>Extended</h2>
+                        <p class="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        <h2><span>$</span>29<span>/Month</span></h2>
+                        <p class="para1">500gb drive space</p>
+                        <p class="para1">Ulimited messages</p>
+                        <p class="para1">Free Email address</p>
+                        <p class="para1">Friendly support</p>
+                        <div class="cardbtn">
+                            <button>PURCHASE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bgimg3">
+            <div class="shadow">
+                <div class="testi">
+                    <div class="testis">
+                        <div>
+                            <div class="testi1">
+                                <div>
+                                    <h1>Testimonials <span style="color: gray; font-weight: lighter;">About Us</span></h1>
+                                </div>
+                                <div>
+                                    <a href="advDesign2.htm">
+                                        <img src="images/icons/larrow.png" alt="" width="18" height="18">
+                                    </a>
+                                    <a href="advDesign2.htm">
+                                        <img src="images/icons/rarrow.png" alt="" width="18" height="18">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="testi2">
+                                <p>Dolor sit Mollitia harum ea ut eaque velit.</p>
+                            </div>
+                            <div class="testi3">
+                                <div>
+                                    <div class="imgt">
+                                        <img src="images/t-1.jpeg" alt="" width="120" height="120">
+                                    </div>
+                                    <div>
+                                        <h2>Robert Newmen</h2>
+                                        <p>Microsoft Corporation</p>
+                                        <p class="bigp">Dolor sit Mollitia harum ea ut eaque velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sit Mollitia harum ea ut eaque velit. Dolor sit Mollitia harum ea ut eaque velit. Lorem ipsum dolor sit amet</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="imgt">
+                                        <img src="images/t-2.jpeg" alt="" width="120" height="120">
+                                    </div>
+                                    <div>
+                                        <h2>Robert Newmen</h2>
+                                        <p>Space X</p>
+                                        <p class="bigp">Dolor sit Mollitia harum ea ut eaque velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sit Mollitia harum ea ut eaque velit. Dolor sit Mollitia harum ea ut eaque velit. Lorem ipsum dolor sit amet</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="formargin">
+            <div class="flexible">
+                <div class="flexible1">
+                    <div class="top1">
+                        <h1>Latest <span style="color: rgb(61, 61, 61); font-weight: bold;">blog</span> posts</h1>
+                        <p>Dolor sit Mollitia harum ea ut eaque velit.</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card1">
+                            <div class="cimg">
+                                <img src="images/img-2.jpg" alt="" width="100%">
+                            </div>
+                            <div>
+                                <h2>Fuga ab quisquam culpa aliquid eius vitae</h2>
+                                <p class="para1">Delectus culpa in consequuntur nemo non reprehenderit repellat deleniti sunt...</p>
+                                <div class="cardbtn">
+                                    <button>READ MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card1">
+                            <div class="cimg">
+                                <img src="images/img-2.jpg" alt="" width="100%">
+                            </div>
+                            <div>
+                                <h2>Fuga ab quisquam culpa aliquid eius vitae</h2>
+                                <p class="para1">Delectus culpa in consequuntur nemo non reprehenderit repellat deleniti sunt...</p>
+                                <div class="cardbtn">
+                                    <button>READ MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card1">
+                            <div class="cimg">
+                                <img src="images/img-2.jpg" alt="" width="100%">
+                            </div>
+                            <div>
+                                <h2>Fuga ab quisquam culpa aliquid eius vitae</h2>
+                                <p class="para1">Delectus culpa in consequuntur nemo non reprehenderit repellat deleniti sunt...</p>
+                                <div class="cardbtn">
+                                    <button>READ MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footers">
+            <div class="footers1">
+                <div>
+                    <img src="images/logo-footer.jpg" alt="" width="160" height="55">
+                </div>
+                <div class="arrange">
+                    <ul>
+                        <li><h2>Company</h2></li>
+                        <li><a href="advDesign2.htm">ABOUT</a></li>
+                        <li><a href="advDesign2.htm">SUPPORT</a></li>
+                        <li><a href="advDesign2.htm">PRESS</a></li>
+                        <li><a href="advDesign2.htm">LEGAL & PRIVACY</a></li>
+                    </ul>
+                    <ul>
+                        <li><h2>Quick Links</h2></li>
+                        <li><a href="advDesign2.htm">NEWS</a></li>
+                        <li><a href="advDesign2.htm">CONTACT US</a></li>
+                        <li><a href="advDesign2.htm">FAQ</a></li>
+                    </ul>
+                    <ul>
+                        <li><h2>Social</h2></li>
+                        <li><a href="https://www.facebook.com">FACEBOOK</a></li>
+                        <li><a href="https://www.google.co.in">GOOGLE</a></li>
+                        <li><a href="https://twitter.com">TWITTER</a></li>
+                        <li><a href="https://www.instagram.com">INSTAGRAM</a></li>
+                    </ul>
+                    <div>
+                        <h2 style="margin-top:15px;">Subscribe newsletter</h2>
+                        <div class="subs">
+                            <input type="email" placeholder="email" name="email"><a href="#"><img src="images/icons/i-message_w.svg" alt="" width="18" height="18"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy">
+                <div>
+                    COPYRIGHT &copy; ALL RIGHTS RESERVED LATE 2022 | DESIGN AND DEVELOPED BY MILLERDIGITAL DESIGN
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

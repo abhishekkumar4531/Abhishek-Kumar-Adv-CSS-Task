@@ -1,0 +1,468 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+}
+body{
+    background-color: rgb(243, 241, 241);
+}
+.shadow{
+    background-color: rgba(29, 29, 115, 0.7);
+}
+header{
+    background-image: url(images/img-1.jpg);
+    background-size: cover;
+}
+.nav1{
+    background-color: rgb(253, 253, 253);
+}
+nav{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    font-weight: bold;
+    padding: 20px 18px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 18px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li a:hover{
+    background-color: rgb(238, 238, 238);
+}
+a:hover select{
+    background-color: rgb(238, 238, 238);
+}
+.content1{
+    height: 100vh;
+    display: flex;
+    color: rgb(216, 216, 216);
+    justify-content: center;
+    align-items: center;
+}
+.content1 span{
+    font-weight: bold;
+    color: white;
+}
+.imgbtn button{
+    padding: 20px 35px;
+    font-size: 16px;
+    color: white;
+    border: 2px solid white;
+    background-color: rgba(49, 49, 116, 0.3);
+    margin: 12px;
+    border-radius: 30px;
+}
+.imgbtn button:hover{
+    background-color: rgb(223, 216, 16);
+    border-color: rgb(223, 216, 16);
+    cursor: pointer;
+}
+.formargin{
+    margin: 100px auto;
+}
+.hello{
+    width: 1200px;
+    margin: 0 auto;
+}
+.hello1{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(79, 78, 78);
+}
+.hw{
+    width: 50%;
+    padding: 16px;
+}
+.img3{
+    width: 50%;
+}
+.ip {
+    margin-bottom: 30px;
+    display: flex;
+}
+.ip img{
+    margin-right: 18px;
+}
+.ip p{
+    margin-top: 8px;
+    font-size: px;
+}
+.img2{
+    background-image: url(images/img-2.jpg);
+    background-size: cover;
+}
+.some{
+    width: 1200px;
+    margin: auto;
+}
+.some1{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(232, 229, 229);
+}
+.ip2 h2{
+    font-weight: lighter;
+}
+.ip2{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0px;
+}
+.ip21{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.ip211{
+    width: 50px;
+    height: 50px;
+    border-radius: 45px;
+    padding: 18px;
+    background-color: rgba(108, 114, 155, 0.36);
+}
+.ip2 h2{
+    color: white;
+}
+.good{
+    width: 1200px;
+    margin: 0 auto;
+}
+.good span{
+    color: rgb(93, 73, 137);
+    font-weight: bold;
+}
+.good p{
+    width: 550px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    color: gray;
+}
+.good ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.good li{
+    padding: 16px;
+}
+.good a{
+    padding: 15px;
+}
+.good a:hover{
+    background-color: rgb(230, 230, 230);
+    padding: 20px 15px;
+}
+.min{
+    display: flex;
+    justify-content: space-between;
+}
+.min img{
+    width: 390px;
+}
+.imgb img{
+    height: 550px;
+}
+.imgs img{
+    height: 250px;
+}
+.l1 .imgs{
+    margin-top: 12px;
+}
+.l2 .imgs{
+    margin-top: 12px;
+}
+.l3 .imgs{
+    margin-bottom: 12px;
+}
+.imgh{
+    width: 370px;
+    height: 250px;
+    text-align: center;
+    margin: 26px auto;
+    background-image: url(images/2-min.jpg);
+    background-size: cover;
+}
+.imgh1{
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(18, 18, 158, 0.7);
+    border: 10px solid rgb(145, 207, 232);
+}
+.plus{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding-bottom: 5px;
+    background-color: rgb(223, 216, 16);
+    color: white;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+.imgh1 h2{
+    color: white;
+    margin: 10px 0px;
+}
+.img4{
+    background-image: url(images/img-4.jpg);
+    background-size: cover;
+}
+.records{
+    width: 1200px;
+    margin: auto;
+}
+.records1{
+    text-align: center;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.num{
+    color: white;;
+}
+.num h3{
+    margin: 15px 0px;
+    font-weight: lighter;
+}
+.num p{
+    font-size: 50px;
+}
+.imgbr{
+    width: 80px;
+    height: 90px;
+    border: 2px solid rgba(108, 114, 155, 0.5);
+    border-radius: 65px;
+    padding: 25px;
+    padding-bottom: 0px;
+    background-color: rgba(108, 114, 155, 0.5);
+}
+.num div:first-child{
+    display: flex;
+    justify-content: center;
+}
+.num:hover{
+    color: rgb(223, 216, 16);
+}
+.flexible{
+    width: 1200px;
+    margin: 0 auto;
+}
+.top{
+    text-align: center;
+}
+.top h1{
+    color: rgb(124, 122, 122);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0px;
+    font-size: 35px;
+    font-weight: lighter;
+}
+.top p{
+    color: rgb(139, 138, 138);
+    margin-top: 15px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(98, 98, 98);
+}
+.card span{
+    font-size: small;
+}
+.para1{
+    color: gray;
+}
+.para2{
+    color: rgb(219, 218, 218);
+}
+.card{
+    margin: 50px 0px 0px;
+    border: 2px solid rgb(241, 240, 240);
+    border-radius: 7px;
+    box-shadow: 5px 5px rgb(234, 231, 231);
+    padding: 20px;
+    width: 330px;
+    background-color: white;
+    text-align: center;
+}
+.card1{
+    margin: 50px 0px 0px;
+    border: 2px solid rgb(241, 240, 240);
+    border-radius: 7px;
+    box-shadow: 5px 5px rgb(234, 231, 231);
+    width: 370px;
+    background-color: white;
+}
+.card1 div:last-child{
+    padding: 10px;
+    padding-top: 0px;
+}
+.card h2{
+    margin: 25px 0px;
+}
+.card p{
+    margin: 16px 0px;
+}
+.card1 h2{
+    margin: 25px 0px;
+    font-size: 20px;
+}
+.card1 p{
+    margin: 16px 0px;
+}
+.cardbtn{
+    margin-top: 30px;
+}
+.cardbtn button{
+    border: 2px solid rgb(71, 71, 71);
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    color: rgb(98, 98, 98);
+    cursor: pointer;
+}
+.cardbtn button:hover{
+    color: white;
+    background-color: rgb(223, 216, 16);
+    border-color: rgb(223, 216, 16);
+}
+.bgimg3{
+    background-image: url(images/img-3.jpg);
+    background-size: cover;
+}
+.testi{
+    width: 1200px;
+    margin: auto;
+}
+.testis{
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.testi1{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 30px;
+}
+.testi1 a{
+    padding: 18px 20px;
+}
+.imgt img{
+    border-radius: 50%;
+}
+.testi1 a:first-child{
+    background-color: rgb(51, 51, 119);
+}
+.testi1 a:last-child{
+    background-color: rgb(198, 192, 15);
+}
+.testi2{
+    margin: 30px 0px;
+    color: rgb(204, 202, 202);
+}
+.testi3{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 80px;
+    color: rgb(222, 222, 222);
+}
+.testi3 h2{
+    color: white;
+    margin: 20px 0px;
+}
+.bigp{
+    margin: 20px 0px;
+}
+.top1 h1{
+    color: rgb(124, 122, 122);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0px;
+    font-size: 35px;
+    font-weight: lighter;
+}
+.top1 p{
+    color: rgb(139, 138, 138);
+    margin-top: 15px;
+}
+.footers{
+    background-color: rgb(56, 56, 108);
+    color: white;
+}
+.footers1{
+    width: 1200px;
+    margin: auto;
+}
+.arrange{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0px;
+}
+.arrange ul{
+    display: initial;
+    margin: 0px;
+}
+.arrange li{
+    margin: 10px 0px;
+    padding: 5px;
+    font-weight: lighter;
+}
+.arrange a{
+    padding: 0px;
+    color: rgb(225, 222, 222);
+    font-size: 13px;
+}
+.arrange a:hover{
+    background-color: rgb(56, 56, 108);
+}
+.subs{
+    margin-top: 30px;
+}
+.copy{
+    text-align: center;
+    border-top: 2px solid white;
+    padding: 30px 0px;
+    color: rgb(225, 222, 222);
+}
+.subs input{
+    padding: 15px;
+    border-color: white;
+    border-radius: 23px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.subs a{
+    background-color: rgb(223, 216, 16);
+    padding: 18px;
+    padding-top: 17px;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.subs a:hover{
+    background-color: rgb(223, 216, 16);  
+}
